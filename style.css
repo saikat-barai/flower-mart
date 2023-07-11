@@ -1,7 +1,7 @@
-*{
-    margin: 0px;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "Lato", sans-serif;
@@ -32,17 +32,22 @@ footer {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  width: 700px;
+  margin-bottom: 30px;
 }
 .banner-description {
   color: rgba(39, 39, 39, 0.6);
   font-size: 22px;
   font-weight: 400;
   line-height: 30px;
+  margin-bottom: 30px;
 }
 .primary-btn {
   border-radius: 8px;
   background: #e55473;
   border: none;
+  font-size: 20px;
+  
   padding: 20px 43px;
   color: white;
 }
@@ -57,6 +62,7 @@ footer {
   text-align: center;
   font-size: 50px;
   font-weight: 800;
+  margin-bottom: 30px;
 }
 .featured-description {
   color: rgba(39, 39, 39, 0.6);
@@ -96,6 +102,62 @@ footer {
   font-weight: 700;
   line-height: 35px;
   text-decoration-line: underline;
+}
+.latest-section {
+  display: flex;
+  gap: 22px;
+  justify-content: space-around;
+  padding: 70px;
+}
+.latest-product {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.1);
+  margin: 80px 240px;
+}
+.latest-content {
+  padding-top: 70px;
+  text-align: center;
+}
+.latest_product-title {
+  color: #272727;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+}
+.latest_product-subtitle {
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 20px;
+    padding: 0px 350px;
+}
+.card {
+  width: 320px;
+  height: 330px;
+
+  background-color: #fff;
+  text-align: center;
+}
+.product-card {
+  text-align: center;
+}
+.latest-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 10px 0px;
+}
+.latest-img {
+  width: 320px;
+  height: 330px;
+  border-radius: 10px;
 }
 .service-container {
   border-radius: 8px;
@@ -162,6 +224,7 @@ footer {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  margin-bottom: 30px;
 }
 .social-description {
   color: rgba(39, 39, 39, 0.6);
@@ -181,7 +244,7 @@ footer {
 .subscription-section {
   background-image: url("./asset/Rectangle 9.png");
   background-repeat: no-repeat;
-  margin: 0px  240px;
+  margin: 0px 240px;
   text-align: center;
   padding: 122px 0px;
 }
@@ -220,7 +283,6 @@ input {
   padding-left: 30px;
   margin-right: 10px;
   margin-top: 30px;
-
 }
 .footer-content {
   text-align: center;
