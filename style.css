@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
   font-family: "Lato", sans-serif;
   width: 1920px;
@@ -5,7 +10,7 @@ body {
 
 header {
   width: 1920px;
-  
+
   background: rgba(229, 84, 115, 0.1);
 }
 footer {
@@ -18,7 +23,9 @@ footer {
   margin: 0px 240px;
   align-items: center;
 }
-
+.banner-container img {
+  margin-top: 30px;
+}
 .banner-title {
   color: #272727;
   font-size: 80px;
@@ -28,7 +35,7 @@ footer {
 }
 .banner-description {
   color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 30px;
 }
@@ -39,22 +46,26 @@ footer {
   padding: 20px 43px;
   color: white;
 }
+.featured {
+  margin: 130px 0px;
+}
 .featured-content {
   margin: 0px 650px 40px 650px;
 }
 .featured-title {
   color: #272727;
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 800;
 }
 .featured-description {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
-  font-size: 18px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+  margin-bottom: 70px;
 }
 .featured-card {
   display: flex;
@@ -67,14 +78,14 @@ footer {
   padding: 110px 78px 0px 76px;
 }
 .featured-img2 {
-  padding: 117px 47px 51px 47px;
+  padding: 117px 40px 51px 47px;
   border-radius: 300px 300px 0px 0px;
-  background: rgba(167, 33, 98, 0.15);
+  background: rgba(5, 151, 160, 0.15);
 }
 .featured-img3 {
   border-radius: 300px 300px 0px 0px;
-  background: rgba(167, 33, 98, 0.15);
-  padding: 67px 75px 0px 75px;
+  background: rgba(71, 125, 17, 0.15);
+  padding: 67px 70px 0px 75px;
 }
 .item-description {
   color: #272727;
@@ -138,7 +149,7 @@ footer {
   text-align: center;
 }
 .social-section {
-  margin: 0px 240px;
+  margin: 130px 240px;
 }
 .content {
   text-align: center;
@@ -147,7 +158,7 @@ footer {
   color: #272727;
   text-align: center;
   font-family: Lato;
-  font-size: 40px;
+  font-size: 44px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -156,7 +167,7 @@ footer {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
   font-family: Lato;
-  font-size: 18px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
@@ -165,11 +176,12 @@ footer {
 .social-image {
   display: flex;
   gap: 25px;
+  margin-top: 50px;
 }
 .subscription-section {
-  background-image: url("./asset/Rectangle\ 9.png");
+  background-image: url("./asset/Rectangle 9.png");
   background-repeat: no-repeat;
-  margin: 0px 240px;
+  margin: 0px  240px;
   text-align: center;
   padding: 122px 0px;
 }
@@ -190,6 +202,7 @@ footer {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+  padding-top: 15px;
 }
 input {
   border-radius: 8px;
@@ -206,11 +219,13 @@ input {
   line-height: normal;
   padding-left: 30px;
   margin-right: 10px;
+  margin-top: 30px;
+
 }
 .footer-content {
   text-align: center;
   padding: 128px 0px;
-  margin: 0px 650px;
+  margin: 120px 650px 0px 650px;
 }
 .footer-title {
   color: #e55473;
@@ -220,25 +235,25 @@ input {
   font-weight: 800;
   line-height: normal;
 }
-.mart{
-    color: white;
+.mart {
+  color: white;
 }
 .footer-description {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
   font-family: Lato;
-  font-size: 18px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-
 }
 .coppy-right {
   color: rgba(255, 255, 255, 0.4);
   text-align: center;
   font-family: Lato;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-top: 40px;
 }
