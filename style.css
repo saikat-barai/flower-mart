@@ -1,0 +1,244 @@
+body {
+  font-family: "Lato", sans-serif;
+  width: 1920px;
+}
+
+header {
+  width: 1920px;
+  
+  background: rgba(229, 84, 115, 0.1);
+}
+footer {
+  font-family: "Lato", sans-serif;
+  width: 1920px;
+  background: #111010;
+}
+.banner-container {
+  display: flex;
+  margin: 0px 240px;
+  align-items: center;
+}
+
+.banner-title {
+  color: #272727;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.primary-btn {
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  padding: 20px 43px;
+  color: white;
+}
+.featured-content {
+  margin: 0px 650px 40px 650px;
+}
+.featured-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.featured-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.featured-card {
+  display: flex;
+  margin: 0px 240px;
+  gap: 30px;
+}
+.featured-img {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 110px 78px 0px 76px;
+}
+.featured-img2 {
+  padding: 117px 47px 51px 47px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.featured-img3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 67px 75px 0px 75px;
+}
+.item-description {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+.service-container {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  margin: 0px 240px;
+  padding: 87px 175px;
+  gap: 80px;
+}
+.service {
+  text-align: center;
+  align-items: center;
+}
+.service-description {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+}
+.hot-deal {
+  display: flex;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 100px 423px;
+  gap: 190px;
+  align-items: center;
+  margin-top: 150px;
+}
+.deal-title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.deal-description {
+  width: 594px;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+.deal-content {
+  text-align: center;
+}
+.social-section {
+  margin: 0px 240px;
+}
+.content {
+  text-align: center;
+}
+.social-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.social-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0px 400px;
+}
+.social-image {
+  display: flex;
+  gap: 25px;
+}
+.subscription-section {
+  background-image: url("./asset/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  margin: 0px 240px;
+  text-align: center;
+  padding: 122px 0px;
+}
+.subscription-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.subscription-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+input {
+  border-radius: 8px;
+  background: #fff;
+  width: 700px;
+  height: 50px;
+  flex-shrink: 0;
+  border: none;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 30px;
+  margin-right: 10px;
+}
+.footer-content {
+  text-align: center;
+  padding: 128px 0px;
+  margin: 0px 650px;
+}
+.footer-title {
+  color: #e55473;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.mart{
+    color: white;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+
+}
+.coppy-right {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
